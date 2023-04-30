@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+
+  <meta charset="utf-8" />
+  <title>Cooking lista</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Rakkas&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+   
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+
+  
+</head>
+
+<body>
+
+
+  <h1 class="headtitle"> قائمة طبخات الاسبوع  🙂</h1>
+
+  <div class="grid-container">
+    <div class="buttons">
+      <button onclick="randomchoos( foverarray1 ,1,cookinglista1)" class="btn btn-dark" type="button">Make a list</button>
+      <button onclick="reset(foverarray1 ,cookinglista1 ,fovertlista1 )"class="btn btn-danger" type="button">Reset</button>
+      <button onclick="savefovert(foverarray1 , fovertlista1)" class="btn btn-success" >My fovert</button>
+    </div>
+    <div class="buttons">
+      <button onclick="randomchoos( foverarray2 ,2,cookinglista2)" class="btn btn-dark" type="button">Make a list</button>
+      <button onclick="reset(foverarray2 ,cookinglista2 ,fovertlista2 )"class="btn btn-danger" type="button">Reset</button>
+      <button onclick="savefovert(foverarray2 , fovertlista2)" class="btn btn-success" >My fovert</button>
+    </div>
+    <div class="buttons">
+      <button onclick="randomchoos( foverarray3 ,3,cookinglista3)" class="btn btn-dark" type="button">Make a list</button>
+      <button onclick="reset( foverarray3 ,cookinglista3 ,fovertlista3 )"class="btn btn-danger" type="button">Reset</button>
+      <button onclick="savefovert(foverarray3 , fovertlista3)" class="btn btn-success" >My fovert</button>
+    </div>
+    <div class="buttons">
+      <button onclick="randomchoos( foverarray4 ,4,cookinglista4)" class="btn btn-dark" type="button">Make a list</button>
+      <button onclick="reset(foverarray4 ,cookinglista4 ,fovertlista4 )"class="btn btn-danger" type="button">Reset</button>
+      <button onclick="savefovert(foverarray4 , fovertlista4)" class="btn btn-success" >My fovert</button>
+    </div>
+    
+  </div>
+
+
+  <div class="grid-container"> 
+  <h4 >الاسبوع 1<ol class="title" id="fovert-list1"></ol></h4>
+  <h4>الاسبوع 2<ol  class="title"id="fovert-list2"></ol></h4>
+  <h4>الاسبوع 3<ol class="title" id="fovert-list3"></ol></h4>
+  <h4>الاسبوع 3<ol class="title" id="fovert-list4"></ol></h4>
+  </div>  
+
+  <div class="grid-container">
+    
+    <div class="grid-item">
+      <h4>1 اقتراحات الاسبوع<ol class="title" id="random-item1"></ol></h4>
+    </div>
+
+
+    <div class="grid-item">
+      <h4>اقتراحات الاسبوع 2<ol class="title" id="random-item2"></ol></h4>
+    </div>
+    
+
+    <div class="grid-item">
+      <h4>اقتراحات الاسبوع 3<ol class="title" id="random-item3"></ol></h4>
+    </div> 
+
+    <div class="grid-item">
+      <h4>اقتراحات الاسبوع 4<ol class="title" id="random-item4"></ol></h4>
+    </div>
+  </div>
+
+  <script src="App.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
