@@ -14,23 +14,23 @@
 
 .title{
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 15px;
     border-radius: 5px;
     color: white;
     background: #373637;
-    width: 300px;
-    height: 285px;
+    width: 330px;
+    height: 290px;
     
   }
 
   .title2{
-    margin-top: 10%;
+    margin-top: 8%;
     padding-top: 15px;
     border-radius: 5px;
     color: white;
     background: #0a893f;
-    width: 300px;
+    width: 330px;
     height: 285px;
   }
   
@@ -45,7 +45,7 @@
 }
 
 .BG2{ 
-  margin-top: 75%;
+  margin-top:65%;
   text-align: center;
   border-radius: 5px;
   padding-top: 10px;

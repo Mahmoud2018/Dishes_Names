@@ -1,84 +1,85 @@
 // JavaScript code
 
-function addRandomObjectFromArray(sourceArray, targetArray, Number ) {
-    // Get a random index from the source array
-    const randomIndex = Math.floor(Math.random() * sourceArray.length / Number);
-  
-    // Get the random object from the source array
-    const randomObject = sourceArray[randomIndex];
-  
-    // Add the random object to the target array
-    targetArray.push(randomObject);
+function addRandomObjectFromArray(sourceArray, targetArray, Number) {
+  // Get a random index from the source array
+  const randomIndex = Math.floor(Math.random() * sourceArray.length / Number);
 
-    
-  }
-  
+  // Get the random object from the source array
+  const randomObject = sourceArray[randomIndex];
+
+  // Add the random object to the target array
+  targetArray.push(randomObject);
+
+
+}
+
 // Define an array of items to choose from
 const meet = [
-"لحمة بالصينية ",
-"يبرق وكوسا  ",
-"شاكرية ",
-"فريكة ",
-"شرحات ",
-"لحمة بعجين ",
-"داود باشا ",
-"تاكو ",
-"سجق ",
-"همبرغر ",
-"كبسة باللحمة ",
-"لحمة ستيك ",
-"كبة ",
-"ششبرك ",
-"لزانيا "
+  "🥩لحمة بالصينية ",
+  "🥩يبرق وكوسا  ",
+  "🥩شاكرية ",
+  "🥩فريكة ",
+  "🥩شرحات ",
+  "🥩مندي ",
+  "🥩لحمة بعجين ",
+  "🥩داود باشا ",
+  "🥩تاكو ",
+  "🥩سجق ",
+  "🥩همبرغر ",
+  "🥩كبسة باللحمة ",
+  "🥩لحمة ستيك ",
+  "🥩كبة ",
+  "🥩ششبرك ",
+  "🥩لزانيا "
 ];
 const cheeckin = [
-"شيش ",
-"فهيتا ",
-"كرسبي ",
-"بطاطا وجاج ",
-"مقلوبة ",
-"مندي ",
-"كبسة ",
-"بطاطا عدما ",
-"ملوخية ورق او ناعمة ",
-"شيش بالفخار ",
-"مسخن ",
-"فوتوشيني ",
-"شكن بتر ",
-"شكن مسالا ",
-"فطيرة الدجاج "
+  "🍗شيش ",
+  "🍗فهيتا ",
+  "🍗كرسبي ",
+  "🍗بطاطا وجاج ",
+  "🍗مقلوبة ",
+  "🍗مندي ",
+  "🍗كبسة ",
+  "🍗بطاطا عدما ",
+  "🍗ملوخية ورق او ناعمة ",
+  "🍗شيش بالفخار ",
+  "🍗مسخن ",
+  "🍗فوتوشيني ",
+  "🍗شكن بتر ",
+  "🍗شكن مسالا ",
+  "🍗فطيرة الدجاج "
 
 ];
 const corpohedrat = [
-"مجدرة ",
-"رز وبازيلا ",
-"معكورنا بندورة وخضار ",
-"معكورنا بالباشاميل ",
-"مكرونة بالجبنة ",
-"ريغاتوني ",
-"بطاطا وشوربة عدس ",
-"كوسا خرط ",
-"معجنات",
-"راكور ورز ",
+  "🍚مجدرة ",
+  "🍚رز وبازيلا ",
+  "🍚معكورنا بندورة",
+  "🍚معكورنا بالباشاميل ",
+  "🍚مكرونة بالجبنة ",
+  "🍚ريغاتوني ",
+  "🍚بطاطا وشوربة عدس ",
+  "🍚كوسا خرط ",
+  "🍚معجنات",
+  "🍤راكور ورز ",
 ];
 
-const vegan =[
-"مقالي ",
-"مطبقة باتنجان ",
-"فول مقلى ",
-"يخنت بطاطا ",
-"ملفوف ",
-"سبانخ ",
-"خبيزة ",
-"مفركة بطاطا ",
-"فاصولية ببندورة ",
-"فاصولية بزيت ",
-"لوبية ",
-"سمك اجاج مقلي ",
-"ملوخية ورق ",
-"ملوخية ناعمة ",
-"محاشي كوسا ببندورة  ",
-"لاكس وبطاطا ",
+const vegan = [
+  "🥗مقالي ",
+  "🥗مطبقة باتنجان ",
+  "🥗فول مقلى ",
+  "🥗يخنت بطاطا ",
+  "🥗ملفوف ",
+  "🥗سبانخ ",
+  "🥗خبيزة ",
+  "🥗مفركة بطاطا ",
+  "🥗فاصولية ببندورة ",
+  "🥗فاصولية بزيت ",
+  "🥗لوبية ",
+  "🐠سمك اجاج مقلي ",
+  "🥗ملوخية ورق ",
+  "🥗ملوخية ناعمة ",
+  "🥗محاشي كوسا ببندورة  ",
+  "🐟لاكس وبطاطا ",
 ]
 
 
@@ -87,14 +88,14 @@ const foverarray1 = [];
 const foverarray2 = [];
 const foverarray3 = [];
 const foverarray4 = [];
-let week =  [
-"الإثنين",     
-"الثلاثاء",
-"الأربعاء",
-" الخميس",
-"الجمعة",
-"السبت",
-" الأحد"
+let week = [
+  "1️⃣الإثنين",
+  "2️⃣الثلاثاء",
+  "3️⃣الأربعاء",
+  "4️⃣الخميس",
+  "5️⃣الجمعة",
+  "6️⃣السبت",
+  "7️⃣الأحد"
 ]
 
 // Get references to the HTML elements
@@ -114,16 +115,16 @@ const fovertbutton = document.getElementById("save-fovert");
 
 
 function randomchoos(array, Number, lista) {
-  clearArray(array );
+  clearArray(array);
 
 
   addRandomObjectFromArray(meet, array, Number);
-  addRandomObjectFromArray(vegan, array , Number);
-  addRandomObjectFromArray(corpohedrat, array,Number);
+  addRandomObjectFromArray(vegan, array, Number);
+  addRandomObjectFromArray(corpohedrat, array, Number);
   addRandomObjectFromArray(cheeckin, array, Number);
   addRandomObjectFromArray(vegan, array, Number);
-  addRandomObjectFromArray(corpohedrat, array ,Number);
-  addRandomObjectFromArray(vegan, array ,Number);
+  addRandomObjectFromArray(corpohedrat, array, Number);
+  addRandomObjectFromArray(vegan, array, Number);
 
   lista.innerHTML = array;
   lista.innerHTML = "";
@@ -131,7 +132,7 @@ function randomchoos(array, Number, lista) {
     var Cooknames = array[i];
     var Weeknames = week[i];
     var item = document.createElement("li");
-    item.innerHTML = Weeknames +" : "+ Cooknames
+    item.innerHTML = Weeknames + " : " + Cooknames
     lista.appendChild(item);
   }
 
@@ -140,8 +141,8 @@ function randomchoos(array, Number, lista) {
 // Add a click event listener to the "Add random item" button
 
 
-function reset(array1 ,lista1,lista2) {
-  clearArray(array1 );
+function reset(array1, lista1, lista2) {
+  clearArray(array1);
   lista1.innerHTML = "";
   lista2.innerHTML = "";
 
@@ -149,15 +150,15 @@ function reset(array1 ,lista1,lista2) {
 
 
 //Save random item button
-function savefovert(array ,lista) {
+function savefovert(array, lista) {
 
-    lista.innerHTML = array;
-    lista.innerHTML = "";
+  lista.innerHTML = array;
+  lista.innerHTML = "";
   for (var i = 0; i < array.length; i++) {
     var Cooknames = array[i];
     var Weeknames = week[i];
     var item = document.createElement("li");
-    item.innerHTML = Weeknames +" : "+ Cooknames
+    item.innerHTML = Weeknames + " : " + Cooknames
     lista.appendChild(item);
   }
 
