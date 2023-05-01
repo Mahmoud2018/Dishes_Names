@@ -131,7 +131,7 @@ function randomchoos(array, Number, lista) {
   for (var i = 0; i < array.length; i++) {
     var Cooknames = array[i];
     var Weeknames = week[i];
-    var item = document.createElement("li");
+    var item = document.createElement("h5");
     item.innerHTML = Weeknames + " : " + Cooknames
     lista.appendChild(item);
   }
@@ -157,7 +157,7 @@ function savefovert(array, lista) {
   for (var i = 0; i < array.length; i++) {
     var Cooknames = array[i];
     var Weeknames = week[i];
-    var item = document.createElement("li");
+    var item = document.createElement("h5");
     item.innerHTML = Weeknames + " : " + Cooknames
     lista.appendChild(item);
   }
