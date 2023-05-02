@@ -89,13 +89,13 @@ const foverarray2 = [];
 const foverarray3 = [];
 const foverarray4 = [];
 let week = [
-  "1️⃣الإثنين",
-  "2️⃣الثلاثاء",
-  "3️⃣الأربعاء",
-  "4️⃣الخميس",
-  "5️⃣الجمعة",
-  "6️⃣السبت",
-  "7️⃣الأحد"
+  "الإثنين",
+  "الثلاثاء",
+  "الأربعاء",
+  "الخميس",
+  "الجمعة",
+  "السبت",
+  "الأحد"
 ]
 
 // Get references to the HTML elements
@@ -131,7 +131,7 @@ function randomchoos(array, Number, lista) {
   for (var i = 0; i < array.length; i++) {
     var Cooknames = array[i];
     var Weeknames = week[i];
-    var item = document.createElement("h5");
+    var item = document.createElement("li");
     item.innerHTML = Weeknames + " : " + Cooknames
     lista.appendChild(item);
   }
@@ -157,7 +157,7 @@ function savefovert(array, lista) {
   for (var i = 0; i < array.length; i++) {
     var Cooknames = array[i];
     var Weeknames = week[i];
-    var item = document.createElement("h5");
+    var item = document.createElement("li");
     item.innerHTML = Weeknames + " : " + Cooknames
     lista.appendChild(item);
   }
